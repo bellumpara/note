@@ -22,9 +22,9 @@
 > $ssh-keygen -t rsa -C "youremail@example.com"
 
  * In your Adminstrator directory, there will have a .ssh folder. There are three file: 
-   * id_rsa
-   * id_rsa.pub 
-   * known_hosts
+    * id_rsa
+    * id_rsa.pub 
+    * known_hosts
  * copy the content of id_rsa.pub, and open the github account, find -->>setting -->>ssh key. 
  * click the add ssh key and paste the content into the ssh key. The title by yourself choice
 

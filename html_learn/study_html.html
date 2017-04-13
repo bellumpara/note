@@ -12,7 +12,49 @@
 	<p>This is another paragraph</p>
 	<a href="http//shiyanlou.com">This is a link</a>
 	<img src="shiyanlou.jpg" width="100" height="142"/>
-	<p>this is a paragraph	<p>
-
+	<p>this is a paragraph	</p>
+	<p style="text-align: center">文本居中</p>
+	<a href="http://www.baidu.com" target="_blank">百度，target取值为_self, _blank, 前者自我覆盖（默认），后者创建新页面</a>
+	<a href="www.doc.com" title="this word will link to doc">加title为提示文字</a>
+	<h1><a name="c2"></a> 加一个书签在这里，用name和值来表示</h1>
+	<a href="#c2">书签链接，当点击这里的时候就跳转到c2处</a>
+	<p>创建一个表格，需要由table（定义表格）,tr（定义行），td（定义单元格数据）,th（定义表头），数据单元格可以包含文本。图片，列表，段落，表单、水平线、表格等</p>
+	<p>table practice</p>
+	<table align="center" border="1">
+		<tr>
+			<td>first row and first column</td>
+			<td>first row and second column</td>
+			<td>first row and third coumn</td>
+		</tr>
+		<tr>
+			<td>second row and first column</td>
+			<td>second row and second column</td>
+		</tr>
+	</table>
+	<p>还有其他的一些属性，
+	<caption>设置标题</caption>
+	cellpadding="",设置单元格边距
+	bgcolor="",设置表格背景颜色
+	background="",以某张图为表格背景
+	</p>
+	<p>添加图片
+	方式1，利用background属性
+	方式2,<img src="路径+文件名">
+	</p>
+	<p>
+		添加属性调整图片的对其方式，align="top"（顶端对齐）
+		align="middle"（中间对齐）,align="left"（左端对齐）
+		调整图片尺寸，width="80" height="80"
+	</p>
+	<p>
+		创建图像映射
+	</p>
+	<p>
+		tap the lizi
+	</p>
+	<img src="./julizi.png" usemap="#lizi"/>
+	<map name="lizi">
+		<area shape="rect" coords="50,10,100,60" href="img.html" target="_blank">
+	</map>
 </body>
 </html>

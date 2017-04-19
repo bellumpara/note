@@ -1,0 +1,103 @@
+<html>
+<head>
+	
+</head>
+<body>
+	<!-- -->
+	<!--在body中插入Javascript代码，来显示动态-->
+	<script>
+		alert("Hello World")
+	</script>
+	<!--引用JavaScript的另一种方式,将JavaScript的代码保存在out.js文件中，然后引用-->
+	<script src="out.js"></script>
+	<script>
+		//声明变量
+		var test;
+		var test_2 = "shiyanlou"; //同时赋值
+		//作用域，有全局和局部变量之分
+		//数据类型
+		var name="bellum" ;//字符串
+		var x=34.00; //数字，可带小数点也可不带
+		var y=true; //布尔值，小写
+		var boys = new Array();
+		boys[0] = "Tom";
+		boys[1] = "Jack";
+		boys[2] = "Alex";
+		document.write(boys[1]);
+		//或者换个形式
+		var people=["Tom", "Jack", "Alex"];
+	</script>
+	<script>
+		//运算符：
+		//+，-，*，/， ++ ，-- ， %取余数
+		//比较运算符
+		// && 逻辑与，|| 逻辑或， 
+		// c?x:y 条件，当c为true时，返回x的值， 否则返回y
+		// &,按位与，两个数同时为1，返回1
+		// |,按位或，两个数都为0，返回0
+		// ^,按位异或，当两个数位有且只有一个为0，返回0，其余为1
+		// ==, !=
+	</script>
+	<script>
+	// 条件判断语句
+		if (true) {
+
+		}
+		else if (true) {
+
+		}
+		else {
+
+		}
+	//当设计大量多层条件判断时
+		switch(k)
+		{
+			case k1:
+				alert("k1");
+				break;
+			case k2:
+				alert("k2");
+				break;
+			default:
+				alert('k');
+		}
+		// for 循环
+		for (var i = 0; i < 8; i++) {
+			document.write(i)
+		}
+		// while 循环
+		var m=15;
+		while (m > 10){
+			document.write(m)
+			m--
+		}
+		do
+		{
+			document.write(m)
+			m--
+		}
+		while(m>10);
+	//break and continue
+	//break,放在循环内，作用是立即跳出循环
+	//continue，放在循环内，作用是终止本次
+	//循环，并执行下一次循环，如果循环的条
+	//件已经不符合，就跳出循环
+	for (i=1; i<10; i++)
+	{
+		if (i==5 || i==6) continue;
+		if (i==8) break;
+		document.write(i);
+	}
+	</script>
+	<script>
+	// function函数定义
+		function func_name(arg1, arg2) {
+			// body...
+			alert("func_name");
+			return func_name;
+		}
+	</script>
+</body>
+
+
+</html>

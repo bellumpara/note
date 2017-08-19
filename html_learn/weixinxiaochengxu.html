@@ -1,0 +1,45 @@
+<!--
+微信小程序
+-->
+<include src="../文件夹/文件不加后缀名" />
+<import src="../文件夹/文件不加后缀名" />
+<template is="模板名称">
+<!--
+这样就可以引用其他文件夹的文件
+-->
+<view wx:for="{{['1','2','3']}}" > 
+    循环内容，循环数组在wxml中
+    {{item}}，通过item获取数组内容
+</view>
+<!--
+事件 
+点击事件 tap
+长按事件 longtap
+触摸事件 touchstart touchend touchmove touchcancel
+其他 submit input
+事件绑定：bind catch,
+-->
+<!--
+微信小程序
+Ctrl+[， Ctrl+]：代码行缩进
+Ctrl+Shift+[， Ctrl+Shift+]：折叠打开代码块
+Shift+Alt+F：代码格式化
+Alt+Up，Alt+Down：上下移动一行
+Shift+Alt+Up，Shift+Alt+Down：向上向下复制一行
+Ctrl+Shift+Enter：在当前行上方插入一行
+Ctrl+Shift+F：全局搜索
+
+光标相关
+Ctrl+End：移动到文件结尾
+Ctrl+Home：移动到文件开头
+Ctrl+i：选中当前行
+Shift+End：选择从光标到行尾
+Shift+Home：选择从行首到光标处
+Ctrl+Shift+L：选中所有匹配
+Ctrl+D：选中匹配
+Ctrl+U：光标回退
+
+界面相关
+Ctrl + \：隐藏侧边栏
+Ctrl + m: 打开或者隐藏模拟器
+-->
